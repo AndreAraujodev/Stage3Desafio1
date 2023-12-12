@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stage Desafio 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  
+  <div class="page">
+    
+    <header>
+      <h1>avalie a sua mentoria</h1>
+      <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+      <img class="imagem" src="./logomarca1.svg" alt="logomarca">
+    <section class="cabeçalho">
+      <div>Informações pessoais</div>  
+      
+    </header>
+
+     
+    </section>
+
+  <form class="form-wrapper">
+    <div class="wrapper-text">
+      <div class="container1">
+        <label for="fist-name">Nome</label>
+        <input type="text" id="fisrt-name"/>
+      </div>
+
+      <div class="container1">
+        <label for="last-name">Sobrenome</label>
+        <input type="text" id="last-name"/>
+      </div>
+    </div>
+
+    <div class="container2">
+      <label for="last-name">Email <span>(digite um email válido)</span></label>
+      <input type="text" id="last-name"/>
+    </div>
+
+      <div class="container2">
+      <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+      <input type="password" id="password"/>
+    </div>
+  
+    <fieldset class="fieldset-wrapper">
+      <legend id="">Informações do mentor</legend>
+    </fieldset>
+
+    <div class="container3">
+
+      <div class="container1">
+        <label for="fist-name">Selecione quem foi o seu mentor</label>
+        <input type="text" id="fisrt-name"/>
+      </div>
+
+      <div class="container2">
+        <label for="feedback">Feedback sobre o mentor</label>
+        <textarea id="feedback"></textarea>
+      </div>
+
+      <div class="checkbox-wrapper"> 
+        <input type="checkbox" id="checkbox"/>
+        <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+      </div>
+
+      <fieldset class="fieldset-wrapper">
+        <legend id="">Agendando próxima mentoria</legend>
+      </fieldset>
+    
+    </div>
+
+    <div class="container4">
+
+      <div class="wrapper-data">
+        <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+        <input type="date" id="date"/>
+      </div>
+
+      <div class="wrapper-hora">
+        <label for="time-fist">Das</label>
+        <input type="time" id="time-fist"/>
+      </div>
+
+      <div class="wrapper-hora">
+        <label for="time-end">até</label>
+        <input type="time" id="time-end"/>
+      </div>
+
+    </div>
+
+    <div class="wrapper-submit">
+      <button class="submit">
+        Salvar
+      </button>
+    </div>
+
+
+
+  </form>
+
+</div>
+ 
+</body>
+</html>
